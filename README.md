@@ -41,6 +41,7 @@ Buenas prácticas
 
 Contribuir
 
+-   Consulta la guía completa en `CONTRIBUTING.md` para más detalles.
 -   Haz un fork del repositorio (o una copia local si no está en remoto).
 -   Crea una rama para tu cambio: `git checkout -b feat/nombre-ejercicio`.
 -   Añade tests o ejemplos que permitan comprobar el funcionamiento.
