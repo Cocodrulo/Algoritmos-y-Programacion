@@ -9,13 +9,11 @@ Propósito
 
 Estructura del repositorio
 
--   `Primer Parcial/` — Carpeta con ejercicios del primer parcial.
-    -   `dados/` — Ejercicios relacionados con el problema de los dados.
-        -   `backtracking.py` — Implementación de backtracking (problema de ejemplo).
-        -   `main.py` — Punto de entrada para ejecutar ejemplos en la carpeta `dados`.
-        -   `simple_stack.py` — Implementación de una pila simple usada en los ejercicios.
-        -   `utils.py` — Utilidades compartidas.
-        -   `test1.txt` — Archivo de datos de prueba.
+-   `PARCIAL/` — Carpeta que indica el parcial correspondiente.
+    -   `EJERCICIO/` — Carpeta que indica el ejercicio a realizar.
+        -   `given_files` — Carpeta con los archivos proporcionados en el vpl y la solución en blanco.
+        -   `solution` — Carpeta con la solución implementada.
+        -   `README.md` — Instrucciones específicas del ejercicio (si aplica).
 
 Cómo ejecutar
 
@@ -27,7 +25,7 @@ Desde la raíz del repositorio (ejemplo en Windows PowerShell):
 
 ```powershell
 # Navegar a la carpeta del ejercicio
-cd "Primer Parcial/dados"
+cd "Primer Parcial/dados/solution"
 
 # Ejecutar el script principal
 python main.py
